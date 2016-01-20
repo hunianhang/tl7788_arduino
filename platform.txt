@@ -2,7 +2,7 @@
 # RFduino compile variables
 # ------------------------- 
 
-name=RFduino Boards
+name=TL7788 Boards
 compiler.path={runtime.tools.arm-none-eabi-gcc.path}/bin/
 compiler.c.cmd=arm-none-eabi-gcc
 compiler.c.flags=-c -g -Os -w -ffunction-sections -fdata-sections -fno-builtin -MMD
