@@ -1,5 +1,5 @@
 
-# RFduino compile variables
+# Tl7788 compile variables
 # ------------------------- 
 
 name=TL7788 Boards
@@ -57,12 +57,12 @@ recipe.hooks.prebuild.0.pattern=
 ## postbuild hook
 recipe.hooks.postbuild.0.pattern=
 
-# RFduino Uploader tools
+# tl7788 Uploader tools
 # ----------------------
 
-tools.RFDLoader.cmd=RFDLoader
-tools.RFDLoader.cmd.windows=RFDLoader.exe
-tools.RFDLoader.upload.params.verbose=
-tools.RFDLoader.upload.params.quiet=
-tools.RFDLoader.path={runtime.tools.RFDLoader.path}
-tools.RFDLoader.upload.pattern="{path}/{cmd}" -q {serial.port} "{build.path}/{build.project_name}.hex"
+tools.NFLoader.cmd=NFLoader
+tools.NFLoader.cmd.windows=NFLoader.exe
+tools.NFLoader.upload.params.verbose=
+tools.NFLoader.upload.params.quiet=
+tools.NFLoader.path={runtime.tools.NFLoader.path}
+tools.NFLoader.upload.pattern="{path}/{cmd}" -q {serial.port} "{build.path}/{build.project_name}.hex"
