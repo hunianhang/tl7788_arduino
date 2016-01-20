@@ -1,6 +1,6 @@
 
 RFduino.name=RFduino
-RFduino.build.board=RFduino
+RFduino.build.board=TL7788
 RFduino.build.mcu=cortex-m0
 RFduino.build.f_cpu=16000000
 RFduino.build.core=arduino
@@ -9,9 +9,6 @@ RFduino.build.ldscript=linker_scripts/gcc/RFduino.ld
 RFduino.build.variant=RFduino
 RFduino.build.variant_system_include="-I{build.system.path}/RFduino" "-I{build.system.path}/RFduino/include" "-I{build.system.path}/CMSIS/CMSIS/Include"
 RFduino.build.variant_system_lib=libRFduinoSystem.a
-#RFduino.build.extra_flags=-DUSB_PID={build.pid} -DUSB_VID={build.vid} -DUSBCON
-#RFduino.build.vid=0x2341
-#RFduino.build.vid=0x003e
 
 RFduino.upload.tool=RFDLoader
 
